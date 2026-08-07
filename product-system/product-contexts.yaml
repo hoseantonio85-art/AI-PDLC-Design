@@ -1,0 +1,17 @@
+version: 1
+
+selection:
+  ask_when_unspecified: true
+  allow_without_context: true
+  no_context_id: none
+
+contexts:
+  norm:
+    label: NORM
+    description: Единый продуктовый контекст NORM
+    status: ready
+
+    provider:
+      type: local_repository
+      root: "/Users/18868085/Documents/UiKit PDLC Ready/norm-product-context-v3-mvp"
+      manifest: "product-system/context-manifest.yaml"
